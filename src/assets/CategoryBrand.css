@@ -1,0 +1,33 @@
+/* Hiệu ứng trượt vào */
+@keyframes slideIn {
+  0% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+/* Áp dụng hiệu ứng slide-in */
+.animate-slide-in {
+  animation: slideIn 1s ease-out forwards;
+}
+
+/* Các lớp delay để tạo thời gian trễ */
+.delay-100 {
+  animation-delay: 0.1s;
+}
+.delay-200 {
+  animation-delay: 0.2s;
+}
+.delay-300 {
+  animation-delay: 0.3s;
+}
+.delay-400 {
+  animation-delay: 0.4s;
+}
+.delay-500 {
+  animation-delay: 0.5s;
+}
